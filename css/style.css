@@ -1,0 +1,890 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-align: border-box;
+}
+
+
+/* -------------- CABECALHO -------- */
+header {
+    background-color: ffffff;
+    height: 150px;
+}
+
+.container_cab{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.posicionamento_header{
+    width: 97%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pesquisa{
+    background-color: rgb(238, 235, 235);
+    width: 250px;
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#entrada{
+    background-color: rgb(238, 235, 235);
+    padding: 0 0 0 10px;
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 11pt;
+}
+
+.pesquisa img{
+    height: 15px;
+}
+
+.pesquisa768{
+    display: none;
+}
+
+.menu{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: white;
+    background-color: rgba(190, 8, 8, 0.9);
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.barras {
+    width: 30px;
+    display: none;
+}
+
+
+/* --------- BANNER ---------------- */
+.banner{
+    max-width: 100%;
+    height: 300px;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.container_banner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.textos_banner {
+    margin: unset;
+    padding: unset;
+    width: 290px;
+    height: 130px;
+    background-color: rgba(10, 241, 21, 0.7);
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px 0 0 40px;
+}
+
+.textos_banner p:hover {
+    font-size: 110%;
+}
+
+
+/* -------- CARDS ---------- */
+
+.containergeral{
+    width: 97%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.novidade {
+    width: 23%;
+    height: 100%;
+    background-image: url(../img/castle_off_ilusion_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.retro {
+    width: 23%;
+    height: 100%;
+    background-image: url(../img/street_fighter_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.famoso {
+    width: 23%;
+    height: 100%;
+    background-image: url(../img/Keanu_Heeves_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.dicas {
+    width: 23%;
+    height: 100%;
+    background-image: url(../img/gamer_lucy_home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.container {
+    height: 175px;
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+.texto{ 
+    margin: unset;
+    padding: unset;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.texto p{
+    width: 250px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-family: "Roboto";
+    font-size: 14pt;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 0 0 15px;
+}
+
+.texto p:hover{ 
+    background-color: yellowgreen;
+    font-size: 120%;
+}
+
+/* --------- RELACIONAMENTO ----------- */
+.container_relacionamentos{
+    width: 80%;
+    margin: unset;
+    margin: 0 auto;
+    font-family: "Roboto";
+    font-size: 14pt;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_relacionamentos img{
+    width: 120px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.container_relacionamentos img:hover{
+    width: 115px;
+}
+
+/* --------- RODAPE -----------*/
+.rodape{
+    margin: 0 auto;
+    width: 95%;
+    height: 320px;
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+}
+
+.container_rodape {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_rodape a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 14pt;
+}
+
+.container_rodape a:hover{
+    color: rgb(87, 78, 78);
+}
+
+.como_chegar{
+    width: 29%;
+    height: 80%;
+    font-family: 'Roboto';
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.coluna_2 {
+    width: 13%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.coluna_3 {
+    width: 15%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.coluna_4 {
+    width: 13%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.coluna320px{
+    display: none;
+    
+}
+
+.redes_sociais1{
+    display: none;
+}
+
+.local{
+    display: none;
+}
+
+.redes_sociais{
+    width: 100%;
+    background-color: rgb(209, 212, 211);
+    border-radius: 15px;
+    padding: 5px 0 0 0;
+}
+
+.redes_sociais p{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 11pt;
+    display: flex;
+    justify-content: center;
+}
+
+.redes_sociais img{
+    width: 45%;
+    margin-top: 10px;
+}
+
+.redes_sociais img:hover{
+    width: 43%;
+    margin-top: 10px;
+}
+
+.copyh{
+    font-size: 12px;
+    font-family: 'Roboto';
+    text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 1360px) {
+
+    .container_cab{
+        width: 97%;
+        margin: 0 auto;
+    }
+
+    .banner{
+        background-image: url(../img/banner_1360px.png);
+    }
+    
+    .menu{
+        width: 700px;
+    }
+
+    .menu a{
+        font-size: 16px;
+    }
+
+    .container_rodape a{
+        font-size: 12pt;
+    }
+
+    .como_chegar{
+        font-size: 12pt;
+    }
+    
+    .coluna_3 {
+        width: 16%;
+    }
+}
+
+
+
+@media screen and (max-width: 1100px) {
+
+    .logo{
+        width: 210px;
+    }
+
+    .banner{
+        background-image: url(../img/banner_1100px.png);
+    }
+    
+    .menu{
+        width: 700px;
+    }
+
+    .menu a{
+        font-size: 13px;
+    }
+
+    .pesquisa{
+        width: 180px;
+    }
+    
+    #entrada{
+        width: 110px;
+        height: 30px;
+        font-size: 10pt;
+    }
+
+    .containergeral{
+        width: 97%;
+        height: 150px;
+    }   
+    
+    .container {
+        height: 130px;
+    }
+
+    .container_relacionamentos{
+        font-size: 11pt;
+    }
+    
+    .container_relacionamentos img{
+        width: 100px;
+    }    
+    
+    .texto p{
+        width: 210px;
+        font-size: 11pt;
+    }    
+    
+    .container_rodape a{
+        font-size: 10pt;
+    }
+
+    .como_chegar{
+        font-size: 10pt;
+    }
+
+    
+    .coluna_2 {
+        width: 16%;
+    }
+    
+    .coluna_3 {
+        width: 16%;
+    }
+    
+    .coluna_4 {
+        width: 18%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .espaco1{
+        display: none;
+    }
+    
+    .posicionamento_header{
+        justify-content: space-around;
+    }
+    
+    .logo{
+        width: 300px;
+    }
+
+    .banner{
+        background-image: url(../img/banner_768px.png);
+    }
+
+    .container_banner {
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .textos_banner {
+        align-items: center;
+        justify-content: baseline;
+        height: 100px;
+    } 
+
+    .menu{
+        display: none;
+    }
+
+    .menu-ativo{
+        background-color: rgba(190, 8, 8, 0.9);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 10px;
+        width: 215px;
+        height: 230px;
+        padding: 10px;
+        padding-left: 33px;
+        position: absolute;
+        top: 112px;
+        right: 87px
+    }
+
+    .menu-ativo a:hover{
+        border-radius: 10px;
+        padding: 8px;
+        font-size: 13pt;
+        border-style: solid;
+        border-color: white;
+    } 
+
+    .menu-ativo a{
+        color: white;
+        font-size: 15pt;
+    }
+
+    .barras{
+        display: inline-block;
+        width: 120px;
+        position: relative;
+    }
+
+    .pesquisa{
+        display: none;
+    }
+
+    .pesquisa768{
+        margin: 0 auto;
+        margin-bottom: 25px;
+        display: inline-block;
+        background-color: rgb(238, 235, 235);
+        width: 580px;
+        height: 35px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    #entrada768{
+        background-color: rgb(238, 235, 235);
+        padding: 0 0 0 10px;
+        width: 475px;
+        height: 30px;
+        border-radius: 10px;
+        border-style: none;
+        font-size: 11pt;
+    }
+    
+    .pesquisa768 img{
+        height: 15px;
+    }
+
+    .containergeral{
+        height: 450px;
+        display: unset;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .novidade {
+        width: 350px;
+        height: 200px;
+        background-image: url(../img/castle_off_ilusion_home.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    
+    .retro {
+        width: 350px;
+        height: 200px;
+        background-image: url(../img/street_fighter_home.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    
+    .famoso {
+        width: 350px;
+        height: 200px;
+        background-image: url(../img/Keanu_Heeves_home.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    
+    .dicas {
+        width: 350px;
+        height: 200px;
+        background-image: url(../img/gamer_lucy_home.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    
+    .container {
+        height: 175px;
+        display: flex;
+        justify-content: right;
+        align-items: baseline;
+        margin-bottom: 15px;
+    }
+    
+    .texto{ 
+        margin: unset;
+        padding: unset;
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .texto p{
+        width: 250px;
+        height: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        font-family: "Roboto";
+        font-size: 14pt;
+        font-weight: bolder;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px 0 0 15px;
+    }
+    
+    .container_relacionamentos{
+        width: 63%;
+        height: 350px;
+        margin: unset;
+        margin: 0 auto;
+        font-family: "Roboto";
+        font-size: 13pt;
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .container_relacionamentos img{
+        width: 120px;
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .rodape{
+        height: 400px;
+    }
+
+    .coluna_2 {
+        width: 33%;
+        align-items: center;
+        font-size: 15pt;
+    }
+    
+    .coluna_3 {
+        width: 33%;
+        align-items: center;
+        font-size: 15pt;
+
+    }
+    
+    .coluna_4 {
+        width: 33%;
+        height: 50%;
+        align-items: center;
+        font-size: 15pt;
+    }
+    
+    .mapa{
+        display: none;
+    }
+
+    .como_chegar{
+        display: none;
+    }
+    
+    .local{
+        display: inline-block;
+        margin-top: 10px;
+        color: black;
+        font-family: "Roboto";
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    .redes_sociais{
+        display: none;
+    }
+
+    .redes_sociais1{
+        margin-top: 20px;
+        display: inline-block;
+        font-family: "Roboto";
+        font-size: 10pt;
+        text-align: center;
+    }
+
+    .redes_sociais1 img{
+        width: 80px;
+        margin-top: 10px;
+    }
+
+    .copyh{
+        font-size: 10px;
+        margin: 0 auto;
+        width: 94%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    
+    .banner{
+        background-image: url(../img/banner_700px.png);
+    }
+
+    
+    .novidade {
+        width: 280px;
+        height: 200px;
+    }
+    
+    .retro {
+        width: 280px;
+        height: 200px;
+    }
+    
+    .famoso {
+        width: 280px;
+        height: 200px;
+    }
+    
+    .dicas {
+        width: 280px;
+        height: 200px;
+    }
+}
+   
+   
+ @media screen and (max-width: 600px) {
+    
+    .banner{
+        background-image: url(../img/banner_600px.png);
+    }
+    
+    .pesquisa768{
+       width: 500px;
+    }
+    
+    #entrada768{
+        width: 450px;
+    }
+        
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+    .banner{
+        background-image: url(../img/banner_500px.png);
+    }
+    
+    .logo{
+        width: 250px;
+    }
+
+    .barras{
+        width: 90px;
+    }
+
+    .pesquisa768{
+        width: 300px;
+    }
+     
+     #entrada768{
+         width: 250px;
+    }
+ 
+     .containergeral{
+        height: 900px;
+    }
+
+    .container_relacionamentos{
+        width: 70%;
+        height: 250px;
+        font-size: 9pt;
+    }
+    
+    .container_relacionamentos img{
+        width: 80px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+    
+    header {
+        height: 120px;
+    }
+
+    .logo{
+        width: 210px;
+    }
+
+    .barras{
+        width: 70px;
+    }
+
+    .pesquisa768{
+        width: 300px;
+    }
+     
+     #entrada768{
+         width: 250px;
+    }
+
+    .menu-ativo{
+        background-color: rgba(190, 8, 8, 0.9);
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 190px;
+        height: 230px;
+        padding: 10px;
+        padding-left: 33px;
+        position: absolute;
+        top: 100px;
+        right: 12px
+    }
+
+    .menu-ativo a{
+        color: white;
+        font-size: 12pt;
+    }
+
+    .menu-ativo a:hover{
+        border-radius: 10px;
+        padding: 8px;
+        font-size: 11pt;
+        border-style: solid;
+        border-color: white;
+    } 
+
+    .banner{
+        background-image: url(../img/Banner_320px.png);
+    }
+
+    .container_banner {
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .textos_banner {
+        align-items: center;
+        justify-content: baseline;
+        height: 120px;
+    } 
+
+    .containergeral{
+        height: 900px;
+    }
+
+    .container_relacionamentos{
+        width: 85%;
+        height: 250px;
+        font-size: 9pt;
+    }
+    
+    .container_relacionamentos img{
+        width: 80px;
+    }
+
+    .container_rodape{
+        display: none;
+    }
+
+    .coluna320px{
+        width: 182px;
+        height: 340px;
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        display:inline-block;
+        font-family: "Roboto";
+    }
+
+    .coluna320px a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .rodape{
+        height: 516px;
+    }
+}
