@@ -59,6 +59,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative
 }
 
 .menu a{
@@ -124,13 +125,13 @@ header {
     align-items: flex-start;
     justify-content: space-evenly;
     border-radius: 10px;
-    width: 215px;
-    height: 230px;
+    width: 320px;
+    height: 250px;
     padding: 10px;
     padding-left: 33px;
     position: absolute;
     top: 96px;
-    left: 533px
+    left: 345px;
 }
 
 .menu_jogos a{
@@ -154,143 +155,109 @@ header {
 }
 
 
-/* --------- BANNER ---------------- */
-.banner{
-    max-width: 100%;
-    height: 300px;
-    background-image: url(../img/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-}
+/* --------- NOVIDADE ---------------- */
 
-.container_banner {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.textos_banner {
-    margin: unset;
-    padding: unset;
-    width: 290px;
-    height: 130px;
-    background-color: rgba(10, 241, 21, 0.7);
-    font-family: "Roboto";
-    display: flex;
-    flex-direction: column ;
-    align-items: center;
-    justify-content: center;
-    border-radius: 40px 0 0 40px;
-}
-
-.textos_banner p:hover {
-    font-size: 110%;
-}
-
-
-/* -------- CARDS ---------- */
-
-.containergeral{
-    width: 97%;
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
+.titulo{
+    width: 94%;
+    height: 60px;
     margin: 0 auto;
-}
-
-.novidade {
-    width: 23%;
-    height: 100%;
-    background-image: url(../img/castle_off_ilusion_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.retro {
-    width: 23%;
-    height: 100%;
-    background-image: url(../img/street_fighter_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.famoso {
-    width: 23%;
-    height: 100%;
-    background-image: url(../img/Keanu_Heeves_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.dicas {
-    width: 23%;
-    height: 100%;
-    background-image: url(../img/gamer_lucy_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.container {
-    height: 175px;
+    font-family: "roboto";
+    font-size: 20pt;
+    color: gray;
     display: flex;
-    justify-content: right;
-    align-items: baseline;
-    margin-bottom: 15px;
+    align-items: flex-start;
+    justify-content: left;
 }
 
-.texto{ 
-    margin: unset;
-    padding: unset;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.texto p{
-    width: 250px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.7);
-    font-family: "Roboto";
-    font-size: 14pt;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px 0 0 15px;
-}
-
-.texto p:hover{ 
-    background-color: yellowgreen;
-    font-size: 120%;
-}
-
-/* --------- RELACIONAMENTO ----------- */
-.container_relacionamentos{
-    width: 80%;
-    margin: unset;
+.cont_novidade{
+    width: 94%;
     margin: 0 auto;
-    font-family: "Roboto";
-    font-size: 14pt;
-    text-align: center;
     display: flex;
     justify-content: space-between;
 }
 
-.container_relacionamentos img{
-    width: 120px;
-    display: flex;
-    margin-top: 10px;
+.col1{
+    width: 49%;
+    height: 332px;
+    background-image: url(../img/cat/novidade1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.container_relacionamentos img:hover{
-    width: 115px;
+.novidade{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
 }
+
+.novidade p{
+    font-family: "roboto";
+    font-size: 18pt;
+    font-weight: bolder;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.novidade a{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.novidade p:hover{
+    background-color:yellowgreen;
+    font-size: 17pt;
+}
+
+.col2{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "roboto";
+    font-size: 15pt;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.col2 img{
+    width: 100%;
+}
+
+.col3{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "roboto";
+    font-size: 15pt;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.col3 img{
+    width: 100%;
+}
+
+/* -------- CARDS ---------- */
+
+.cont_cards{
+    width: 94%;
+    height: 260px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont_cards img{
+    width: 23%;
+}
+
 
 /* --------- RODAPE -----------*/
 .rodape{

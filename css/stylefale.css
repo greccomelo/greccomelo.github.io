@@ -7,396 +7,129 @@
 }
 
 
-/* -------------- CABECALHO -------- */
-header {
-    background-color: ffffff;
-    height: 150px;
-}
+/* -------------- BG + LOGO -------- */
 
-.container_cab{
-    width: 100%;
+.container_tela{
+    max-width: 100%;
+    height: 750px;
     margin: 0 auto;
 }
 
-.posicionamento_header{
-    width: 97%;
+.fundo{
+    max-width: 100%;
+    height: 750px;
+    background-image: url(../img/fale_bg_ok.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo{
+    width: 301px;
+    height: 150px;
+    margin-left: 12px;
+}
+
+/* --------- FORMULARIO ---------------- */
+
+.container_form{
+    width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
     align-items: center;
 }
 
-.pesquisa{
-    background-color: rgb(238, 235, 235);
-    width: 250px;
-    height: 35px;
+.formulario{
+    width: 75%;
+    height: 65%;
+    background-color: #ac1c1cd8;
+    border-radius: 15px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
-    border-radius: 10px;
 }
 
-#entrada{
-    background-color: rgb(238, 235, 235);
-    padding: 0 0 0 10px;
-    width: 180px;
-    height: 30px;
+.cab_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .titulo{
+    margin-top: 25px;
+    font-family: "Roboto";
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+ }
+
+.obrigatorio{
+    font-family: "Roboto";
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+}
+
+.cab_cols{
+    margin-top: 20px;
+    width: 100%;
+    height: 66%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col_1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col_2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.col_1 input{
+    height: 56px;
     border-radius: 10px;
     border-style: none;
-    font-size: 11pt;
+    font-size: 12pt;
+    padding-left: 20px;
 }
 
-.pesquisa img{
-    height: 15px;
-}
-
-.pesquisa768{
-    display: none;
-}
-
-.menu{
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.menu a{
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.menu a:hover{
-    color: white;
-    background-color: rgba(190, 8, 8, 0.9);
-    border-radius: 3px;
-    padding: 8px;
-    font-size: 16px;
-}
-
-.sub_categoria{
-    display: none;
-}
-
-.jogos{
-    display: none;
-}
-
-.menu_sub_categoria{
-    background-color: rgba(190, 8, 8, 0.9);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
+#mensagem{
+    max-width: 94%;
+    height: 72%;
+    max-height: 72%;
+    padding-top: 20px;
     border-radius: 10px;
-    width: 215px;
-    height: 230px;
-    padding: 10px;
-    padding-left: 33px;
-    position: absolute;
-    top: 96px;
-    left: 533px
-}
-
-.menu_sub_categoria a{
-    text-decoration: none;
-    color: white;
+    border-style: none;
     font-family: "roboto";
-    font-size: 18pt;
+    font-size: 12pt;
+    padding-left: 20px;
+
 }
 
-.menu_sub_categoria a:hover{
-    border-radius: 10px;
-    padding: 8px;
-    font-size: 17pt;
-    border-style: solid;
-    border-color: white;
-} 
-
-.menu_jogos{
-    background-color: rgba(190, 8, 8, 0.9);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    border-radius: 10px;
-    width: 215px;
-    height: 230px;
-    padding: 10px;
-    padding-left: 33px;
-    position: absolute;
-    top: 96px;
-    left: 533px
-}
-
-.menu_jogos a{
-    text-decoration: none;
+.enviar{
+    width: 100%;
+    height: 56px;
     color: white;
+    background-color: #49CC0C;
     font-family: "roboto";
-    font-size: 18pt;
-}
-
-.menu_jogos a:hover{
+    font-size: 20pt;
+    border-style: none;
     border-radius: 10px;
-    padding: 8px;
-    font-size: 17pt;
-    border-style: solid;
-    border-color: white;
-} 
-
-.barras {
-    width: 30px;
-    display: none;
 }
 
-
-/* --------- BANNER ---------------- */
-.banner{
-    max-width: 100%;
-    height: 300px;
-    background-image: url(../img/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
+.enviar:hover{
+    background-color: #38a505;
 }
 
-.container_banner {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.textos_banner {
-    margin: unset;
-    padding: unset;
-    width: 290px;
-    height: 130px;
-    background-color: rgba(10, 241, 21, 0.7);
-    font-family: "Roboto";
-    display: flex;
-    flex-direction: column ;
-    align-items: center;
-    justify-content: center;
-    border-radius: 40px 0 0 40px;
-}
-
-.textos_banner p:hover {
-    font-size: 110%;
-}
-
-
-/* -------- CARDS ---------- */
-
-.containergeral{
-    width: 97%;
-    height: 200px;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-}
-
-.novidade {
-    width: 23%;
-    height: 100%;
-    background-image: url(../img/castle_off_ilusion_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.retro {
-    width: 23%;
-    height: 100%;
-    background-image: url(../img/street_fighter_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.famoso {
-    width: 23%;
-    height: 100%;
-    background-image: url(../img/Keanu_Heeves_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.dicas {
-    width: 23%;
-    height: 100%;
-    background-image: url(../img/gamer_lucy_home.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 5px;
-}
-
-.container {
-    height: 175px;
-    display: flex;
-    justify-content: right;
-    align-items: baseline;
-    margin-bottom: 15px;
-}
-
-.texto{ 
-    margin: unset;
-    padding: unset;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.texto p{
-    width: 250px;
-    height: 30px;
-    background-color: rgba(255, 255, 255, 0.7);
-    font-family: "Roboto";
-    font-size: 14pt;
-    font-weight: bolder;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 15px 0 0 15px;
-}
-
-.texto p:hover{ 
-    background-color: yellowgreen;
-    font-size: 120%;
-}
-
-/* --------- RELACIONAMENTO ----------- */
-.container_relacionamentos{
-    width: 80%;
-    margin: unset;
-    margin: 0 auto;
-    font-family: "Roboto";
-    font-size: 14pt;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
-}
-
-.container_relacionamentos img{
-    width: 120px;
-    display: flex;
-    margin-top: 10px;
-}
-
-.container_relacionamentos img:hover{
-    width: 115px;
-}
-
-/* --------- RODAPE -----------*/
-.rodape{
-    margin: 0 auto;
-    width: 95%;
-    height: 320px;
-    background-color: #E5E5E5;
-    display: flex;
-    flex-direction: column;
-}
-
-.container_rodape {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.container_rodape a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Roboto';
-    font-size: 14pt;
-}
-
-.container_rodape a:hover{
-    color: rgb(87, 78, 78);
-}
-
-.como_chegar{
-    width: 29%;
-    height: 80%;
-    font-family: 'Roboto';
-    font-size: 14pt;
-    font-weight: bold;
-}
-
-.coluna_2 {
-    width: 13%;
-    height: 80%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.coluna_3 {
-    width: 15%;
-    height: 80%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.coluna_4 {
-    width: 13%;
-    height: 80%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-}
-
-.coluna320px{
-    display: none;
-    
-}
-
-.redes_sociais1{
-    display: none;
-}
-
-.local{
-    display: none;
-}
-
-.redes_sociais{
-    width: 100%;
-    background-color: rgb(209, 212, 211);
-    border-radius: 15px;
-    padding: 5px 0 0 0;
-}
-
-.redes_sociais p{
-    text-decoration: none;
-    color: black;
-    font-family: 'Roboto';
-    font-size: 11pt;
-    display: flex;
-    justify-content: center;
-}
-
-.redes_sociais img{
-    width: 45%;
-    margin-top: 10px;
-}
-
-.redes_sociais img:hover{
-    width: 43%;
-    margin-top: 10px;
-}
-
-.copyh{
-    font-size: 12px;
-    font-family: 'Roboto';
-    text-align: center;
-}
 
 
 
