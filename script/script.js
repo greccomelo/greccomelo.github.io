@@ -14,6 +14,23 @@ $( document ).ready( function() {
 
 })
 
+// sub-menu categorias
+$( document ).ready( function() {
+
+    $("#menu_categoria").click(function() {
+        $("#sub_categoria").toggleClass("menu_sub_categoria")
+    })
+
+})
+
+// sub-menu jogos
+$( document ).ready( function() {
+
+    $("#jogo").click(function() {
+        $("#jogos").toggleClass("menu_jogos")
+    })
+
+})
 
 
 let recebe = document.getElementById("entrada");
