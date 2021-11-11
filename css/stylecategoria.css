@@ -157,6 +157,21 @@ header {
 
 /* --------- NOVIDADE ---------------- */
 
+.cont_novidade_1{
+    display: none;
+}
+
+.cont_novidade_2{
+   display: none;
+}
+
+.cont_novidade_3{
+    display: none;
+}
+
+.Cont_novidade_4{
+    display: none;
+}
 .titulo{
     width: 94%;
     height: 60px;
@@ -177,7 +192,7 @@ header {
 }
 
 .col1{
-    width: 49%;
+    width: 53%;
     height: 332px;
     background-image: url(../img/cat/novidade1.png);
     background-repeat: no-repeat;
@@ -213,12 +228,12 @@ header {
 }
 
 .col2{
-    width: 23%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-family: "roboto";
-    font-size: 15pt;
+    font-size: 14pt;
     line-height: 35px;
     text-align: justify;
 }
@@ -228,18 +243,30 @@ header {
 }
 
 .col3{
-    width: 23%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-family: "roboto";
-    font-size: 15pt;
+    font-size: 14pt;
     line-height: 35px;
     text-align: justify;
 }
 
 .col3 img{
     width: 100%;
+}
+
+.cont_novidade_1{
+    display: none;
+}
+
+.Cont_novidade_2{
+    display: none;
+}
+
+.line{
+    display: none;
 }
 
 /* -------- CARDS ---------- */
@@ -375,9 +402,9 @@ header {
         margin: 0 auto;
     }
 
-    .banner{
+    /* .banner{
         background-image: url(../img/banner_1360px.png);
-    }
+    } */
     
     .menu{
         width: 700px;
@@ -408,9 +435,9 @@ header {
         width: 210px;
     }
 
-    .banner{
+    /* .banner{
         background-image: url(../img/banner_1100px.png);
-    }
+    } */
     
     .menu{
         width: 700px;
@@ -491,21 +518,6 @@ header {
         width: 300px;
     }
 
-    .banner{
-        background-image: url(../img/banner_768px.png);
-    }
-
-    .container_banner {
-        justify-content: center;
-        align-items: flex-end;
-    }
-
-    .textos_banner {
-        align-items: center;
-        justify-content: baseline;
-        height: 100px;
-    } 
-
     .menu{
         display: none;
     }
@@ -575,94 +587,130 @@ header {
         height: 15px;
     }
 
-    .containergeral{
-        height: 450px;
-        display: unset;
-        display: flex;
-        flex-wrap: wrap;
-    }
+/* --------- NOVIDADE ---------------- */
 
-    .novidade {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/castle_off_ilusion_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .retro {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/street_fighter_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .famoso {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/Keanu_Heeves_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .dicas {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/gamer_lucy_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .container {
-        height: 175px;
-        display: flex;
-        justify-content: right;
-        align-items: baseline;
-        margin-bottom: 15px;
-    }
-    
-    .texto{ 
-        margin: unset;
-        padding: unset;
-        display: flex;
-        justify-content: flex-end;
-    }
-    
-    .texto p{
-        width: 250px;
-        height: 30px;
-        background-color: rgba(255, 255, 255, 0.7);
-        font-family: "Roboto";
-        font-size: 14pt;
-        font-weight: bolder;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 15px 0 0 15px;
-    }
-    
-    .container_relacionamentos{
-        width: 63%;
-        height: 350px;
-        margin: unset;
-        margin: 0 auto;
-        font-family: "Roboto";
-        font-size: 13pt;
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .container_relacionamentos img{
-        width: 120px;
-        display: flex;
-        margin-top: 10px;
-    }
+.titulo{
+    width: 94%;
+    height: 60px;
+    margin: 0 auto;
+    font-family: "roboto";
+    font-size: 20pt;
+    color: gray;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.line{
+    display: block;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.cont_novidade{
+    display: none;
+}
+
+.cont_novidade_1{
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1_1{
+    width: 100%;
+    height: 332px;
+    background-image: url(../img/cat/novidade1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.novidade_1{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.novidade_1 p{
+    font-family: "roboto";
+    font-size: 18pt;
+    font-weight: bolder;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.novidade_1 a{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.novidade_1 p:hover{
+    background-color:yellowgreen;
+    font-size: 17pt;
+}
+
+.Cont_novidade_2{
+    width: 85%;
+    height: 320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col2_1{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "roboto";
+    font-size: 13pt;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.col2_1 img{
+    width: 100%;
+}
+
+.col3_1{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "roboto";
+    font-size: 13pt;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.col3_1 img{
+    width: 100%;
+}
+
+
+/* -------- CARDS ---------- */
+
+.cont_cards{
+    width: 85%;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont_cards img{
+    width: 47%;
+}
+
+/* ---- Rodape ----- */
 
     .rodape{
         height: 400px;
@@ -873,34 +921,119 @@ header {
         border-color: white;
     } 
 
-    .banner{
-        background-image: url(../img/Banner_320px.png);
-    }
+/* --------- NOVIDADE ---------------- */
 
-    .container_banner {
-        justify-content: center;
-        align-items: flex-end;
-    }
+.titulo{
+    width: 94%;
+    height: 60px;
+    margin: 0 auto;
+    font-family: "roboto";
+    font-size: 15pt;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    .textos_banner {
-        align-items: center;
-        justify-content: baseline;
-        height: 120px;
-    } 
+.line{
+    display: block;
+    width: 94%;
+    margin: 0 auto;
+}
 
-    .containergeral{
-        height: 900px;
-    }
+.cont_novidade_1{
+    display: none;
+}
 
-    .container_relacionamentos{
-        width: 85%;
-        height: 250px;
-        font-size: 9pt;
-    }
-    
-    .container_relacionamentos img{
-        width: 80px;
-    }
+.Cont_novidade_2{
+    display: none;
+}
+
+.cont_novidade_3{
+    display: inline-block;
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1_2{
+    width: 100%;
+    height: 245px;
+    background-image: url(../img/cat/novidade1.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+}
+
+.novidade_2{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.novidade_2 p{
+    font-family: "roboto";
+    font-size: 12pt;
+    font-weight: bolder;
+    background-color:rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.novidade_2 a{
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.novidade_2 p:hover{
+    background-color:yellowgreen;
+    font-size: 11pt;
+}
+
+.Cont_novidade_4{
+    width: 85%;
+    height: 478px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col2_2{
+    width: 94%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "roboto";
+    font-size: 13pt;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.col2_2 img{
+    width: 100%;
+}
+
+/* -------- CARDS ---------- */
+
+.cont_cards{
+    width: 85%;
+    height: 730px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.cont_cards img{
+    width: 100%;
+}
 
     .container_rodape{
         display: none;

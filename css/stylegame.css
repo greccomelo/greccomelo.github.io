@@ -353,10 +353,6 @@ header {
         margin: 0 auto;
     }
 
-    .banner{
-        background-image: url(../img/banner_1360px.png);
-    }
-    
     .menu{
         width: 700px;
     }
@@ -384,10 +380,6 @@ header {
 
     .logo{
         width: 210px;
-    }
-
-    .banner{
-        background-image: url(../img/banner_1100px.png);
     }
     
     .menu{
@@ -430,6 +422,90 @@ header {
         font-size: 11pt;
     }    
     
+    /* --------- GAME ---------------- */
+
+.titulo{
+    width: 94%;
+    height: 60px;
+    margin: 0 auto;
+    font-family: "roboto";
+    font-size: 20pt;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+.cont_novidade{
+    width: 94%;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1{
+    width: 74.4%;
+    background-image: url(../img/game/destaque.png);
+    background-repeat: no-repeat;
+    background-size: 765px;
+}
+
+.col3{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "roboto";
+    font-size: 12.5pt;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.col3 img{
+    width: 100%;
+}
+
+.preco{
+    width: 100%; height: 33%;
+    border-style: solid; border-color: green; border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text_preco{
+    font-family: "roboto"; font-size: 23pt; font-weight: bolder;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.botao{
+    width: 100%; height: 50%;
+    background-color: green; color: white;
+    border-radius: 18px;
+    font-size: 16pt;
+    font-family: "roboto";
+    font-weight: bolder;
+}
+
+/* -------- CARDS ---------- */
+
+.cont_cards{
+    width: 94%;
+    height: 180px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont_cards img{
+    width: 23%;
+}
+
+/* ----- rodape ---- */
+
     .container_rodape a{
         font-size: 10pt;
     }
@@ -467,10 +543,6 @@ header {
     
     .logo{
         width: 300px;
-    }
-
-    .banner{
-        background-image: url(../img/banner_768px.png);
     }
 
     .container_banner {
@@ -560,87 +632,91 @@ header {
         flex-wrap: wrap;
     }
 
-    .novidade {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/castle_off_ilusion_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .retro {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/street_fighter_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .famoso {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/Keanu_Heeves_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .dicas {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/gamer_lucy_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .container {
-        height: 175px;
-        display: flex;
-        justify-content: right;
-        align-items: baseline;
-        margin-bottom: 15px;
-    }
-    
-    .texto{ 
-        margin: unset;
-        padding: unset;
-        display: flex;
-        justify-content: flex-end;
-    }
-    
-    .texto p{
-        width: 250px;
-        height: 30px;
-        background-color: rgba(255, 255, 255, 0.7);
-        font-family: "Roboto";
-        font-size: 14pt;
-        font-weight: bolder;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 15px 0 0 15px;
-    }
-    
-    .container_relacionamentos{
-        width: 63%;
-        height: 350px;
-        margin: unset;
-        margin: 0 auto;
-        font-family: "Roboto";
-        font-size: 13pt;
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .container_relacionamentos img{
-        width: 120px;
-        display: flex;
-        margin-top: 10px;
-    }
+        /* --------- GAME ---------------- */
+
+.titulo{
+    width: 94%;
+    height: 60px;
+    margin: 0 auto;
+    font-family: "roboto";
+    font-size: 20pt;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cont_novidade{
+    width: 94%;
+    height: 460px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.col1{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/game/destaque.png);
+    background-repeat: no-repeat;
+    background-size: 722px;
+}
+
+.col3{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: "roboto";
+    font-size: 12.5pt;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.preco{
+    width: 50%; height: 50%;
+    border-style: solid; border-color: green; border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_preco{
+    font-family: "roboto"; font-size: 23pt; font-weight: bolder;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.botao{
+    width: 100%; height: 50%;
+    background-color: green; color: white;
+    border-radius: 18px;
+    font-size: 16pt;
+    font-family: "roboto";
+    font-weight: bolder;
+}
+
+/* -------- CARDS ---------- */
+
+.cont_cards{
+    width: 90%;
+    height: 430px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cont_cards img{
+    width: 45%;
+}
+
+/* ------------- rodape ---------------- */
 
     .rodape{
         height: 400px;
@@ -851,35 +927,93 @@ header {
         border-color: white;
     } 
 
-    .banner{
-        background-image: url(../img/Banner_320px.png);
-    }
+/* --------- GAME ---------------- */
 
-    .container_banner {
-        justify-content: center;
-        align-items: flex-end;
-    }
+        .titulo{
+            width: 94%;
+            height: 60px;
+            margin: 0 auto;
+            font-family: "roboto";
+            font-size: 16pt;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .cont_novidade{
+            width: 94%;
+            height: 540px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .col1{
+            width: 100%;
+            height: 100%;
+            background-image: url(../img/novidade_mickey320px.png);
+            background-repeat: no-repeat;
+            background-size: 300px;
+        }
+        
+        .col3{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            font-family: "roboto";
+            font-size: 12pt;
+            line-height: 30px;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .preco{
+            width: 80%; height: 40%;
+            border-style: solid; border-color: green; border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .text_preco{
+            font-family: "roboto"; font-size: 23pt; font-weight: bolder;
+            text-align: center;
+            padding-top: 12px;
+        }
+        
+        .botao{
+            width: 100%; height: 50%;
+            background-color: green; color: white;
+            border-radius: 18px;
+            font-size: 16pt;
+            font-family: "roboto";
+            font-weight: bolder;
+        }
+        
+        /* -------- CARDS ---------- */
+        
+        .cont_cards{
+            width: 90%;
+            height: 790px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        
+        .cont_cards img{
+            width: 100%;
+        }
 
-    .textos_banner {
-        align-items: center;
-        justify-content: baseline;
-        height: 120px;
-    } 
-
-    .containergeral{
-        height: 900px;
-    }
-
-    .container_relacionamentos{
-        width: 85%;
-        height: 250px;
-        font-size: 9pt;
-    }
-    
-    .container_relacionamentos img{
-        width: 80px;
-    }
-
+/* -------- rodape ------------- */
+        
     .container_rodape{
         display: none;
     }

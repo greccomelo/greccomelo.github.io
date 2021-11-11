@@ -141,9 +141,6 @@
         margin: 0 auto;
     }
 
-    .banner{
-        background-image: url(../img/banner_1360px.png);
-    }
     
     .menu{
         width: 700px;
@@ -172,10 +169,6 @@
 
     .logo{
         width: 210px;
-    }
-
-    .banner{
-        background-image: url(../img/banner_1100px.png);
     }
     
     .menu{
@@ -245,346 +238,132 @@
 
 @media screen and (max-width: 768px) {
     
-    .espaco1{
-        display: none;
-    }
-    
-    .posicionamento_header{
-        justify-content: space-around;
-    }
-    
-    .logo{
-        width: 300px;
-    }
+    /* -------------- BG + LOGO -------- */
 
-    .banner{
-        background-image: url(../img/banner_768px.png);
-    }
+.container_tela{
+    width: 100%;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .container_banner {
-        justify-content: center;
-        align-items: flex-end;
-    }
+.fundo{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    .textos_banner {
-        align-items: center;
-        justify-content: baseline;
-        height: 100px;
-    } 
+.logo{
+    width: 270px;
+    height: 150px;
+    margin-left: 12px;
+}
 
-    .menu{
-        display: none;
-    }
+/* --------- FORMULARIO ---------------- */
 
-    .menu-ativo{
-        background-color: rgba(190, 8, 8, 0.9);
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        border-radius: 10px;
-        width: 215px;
-        height: 230px;
-        padding: 10px;
-        padding-left: 33px;
-        position: absolute;
-        top: 112px;
-        right: 87px
-    }
+.container_form{
+    width: 65%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .menu-ativo a:hover{
-        border-radius: 10px;
-        padding: 8px;
-        font-size: 13pt;
-        border-style: solid;
-        border-color: white;
-    } 
+.formulario{
+    width: 75%;
+    height: 100%;
+    background-color: #ac1c1cd8;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    .menu-ativo a{
-        color: white;
-        font-size: 15pt;
-    }
+.cab_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
 
-    .barras{
-        display: inline-block;
-        width: 120px;
-        position: relative;
-    }
+ .titulo{
+    margin-top: 25px;
+    font-family: "Roboto";
+    font-size: 30pt;
+    color: white;
+    text-align: center;
+ }
 
-    .pesquisa{
-        display: none;
-    }
+.obrigatorio{
+    font-family: "Roboto";
+    font-size: 12pt;
+    color: white;
+    text-align: center;
+}
 
-    .pesquisa768{
-        margin: 0 auto;
-        margin-bottom: 25px;
-        display: inline-block;
-        background-color: rgb(238, 235, 235);
-        width: 580px;
-        height: 35px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        border-radius: 10px;
-    }
-    
-    #entrada768{
-        background-color: rgb(238, 235, 235);
-        padding: 0 0 0 10px;
-        width: 475px;
-        height: 30px;
-        border-radius: 10px;
-        border-style: none;
-        font-size: 11pt;
-    }
-    
-    .pesquisa768 img{
-        height: 15px;
-    }
+.cab_cols{
+    margin-top: 20px;
+    width: 100%;
+    height: 66%;
+    display: flex;
+    justify-content: space-evenly;
+}
 
-    .containergeral{
-        height: 450px;
-        display: unset;
-        display: flex;
-        flex-wrap: wrap;
-    }
+.col_1{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-    .novidade {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/castle_off_ilusion_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .retro {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/street_fighter_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .famoso {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/Keanu_Heeves_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .dicas {
-        width: 350px;
-        height: 200px;
-        background-image: url(../img/gamer_lucy_home.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 5px;
-    }
-    
-    .container {
-        height: 175px;
-        display: flex;
-        justify-content: right;
-        align-items: baseline;
-        margin-bottom: 15px;
-    }
-    
-    .texto{ 
-        margin: unset;
-        padding: unset;
-        display: flex;
-        justify-content: flex-end;
-    }
-    
-    .texto p{
-        width: 250px;
-        height: 30px;
-        background-color: rgba(255, 255, 255, 0.7);
-        font-family: "Roboto";
-        font-size: 14pt;
-        font-weight: bolder;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 15px 0 0 15px;
-    }
-    
-    .container_relacionamentos{
-        width: 63%;
-        height: 350px;
-        margin: unset;
-        margin: 0 auto;
-        font-family: "Roboto";
-        font-size: 13pt;
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .container_relacionamentos img{
-        width: 120px;
-        display: flex;
-        margin-top: 10px;
-    }
+.col_2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-    .rodape{
-        height: 400px;
-    }
+.col_1 input{
+    height: 56px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 9pt;
+    padding-left: 20px;
+}
 
-    .coluna_2 {
-        width: 33%;
-        align-items: center;
-        font-size: 15pt;
-    }
-    
-    .coluna_3 {
-        width: 33%;
-        align-items: center;
-        font-size: 15pt;
-
-    }
-    
-    .coluna_4 {
-        width: 33%;
-        height: 50%;
-        align-items: center;
-        font-size: 15pt;
-    }
-    
-    .mapa{
-        display: none;
-    }
-
-    .como_chegar{
-        display: none;
-    }
-    
-    .local{
-        display: inline-block;
-        margin-top: 10px;
-        color: black;
-        font-family: "Roboto";
-        display: flex;
-        justify-content: center;
-        font-weight: bold;
-    }
-
-    .redes_sociais{
-        display: none;
-    }
-
-    .redes_sociais1{
-        margin-top: 20px;
-        display: inline-block;
-        font-family: "Roboto";
-        font-size: 10pt;
-        text-align: center;
-    }
-
-    .redes_sociais1 img{
-        width: 80px;
-        margin-top: 10px;
-    }
-
-    .copyh{
-        font-size: 10px;
-        margin: 0 auto;
-        width: 94%;
-        display: flex;
-        justify-content: center;
-    }
+#mensagem{
+    max-width: 94%;
+    height: 65%;
+    max-height: 72%;
+    padding-top: 20px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: "roboto";
+    font-size: 9pt;
+    padding-left: 20px;
 
 }
 
-
-
-
-@media screen and (max-width: 700px) {
-    
-    .banner{
-        background-image: url(../img/banner_700px.png);
-    }
-
-    
-    .novidade {
-        width: 280px;
-        height: 200px;
-    }
-    
-    .retro {
-        width: 280px;
-        height: 200px;
-    }
-    
-    .famoso {
-        width: 280px;
-        height: 200px;
-    }
-    
-    .dicas {
-        width: 280px;
-        height: 200px;
-    }
-}
-   
-   
- @media screen and (max-width: 600px) {
-    
-    .banner{
-        background-image: url(../img/banner_600px.png);
-    }
-    
-    .pesquisa768{
-       width: 500px;
-    }
-    
-    #entrada768{
-        width: 450px;
-    }
-        
+.enviar{
+    width: 100%;
+    height: 56px;
+    color: white;
+    background-color: #49CC0C;
+    font-family: "roboto";
+    font-size: 15pt;
+    border-style: none;
+    border-radius: 10px;
 }
 
+.enviar:hover{
+    background-color: #38a505;
+}
 
-
-
-@media screen and (max-width: 500px) {
-
-    .banner{
-        background-image: url(../img/banner_500px.png);
-    }
-    
-    .logo{
-        width: 250px;
-    }
-
-    .barras{
-        width: 90px;
-    }
-
-    .pesquisa768{
-        width: 300px;
-    }
-     
-     #entrada768{
-         width: 250px;
-    }
- 
-     .containergeral{
-        height: 900px;
-    }
-
-    .container_relacionamentos{
-        width: 70%;
-        height: 250px;
-        font-size: 9pt;
-    }
-    
-    .container_relacionamentos img{
-        width: 80px;
-    }
 }
 
 
@@ -592,102 +371,138 @@
 
 @media screen and (max-width: 320px) {
     
-    header {
-        height: 120px;
-    }
+    /* -------------- BG + LOGO -------- */
 
-    .logo{
-        width: 210px;
-    }
-
-    .barras{
-        width: 70px;
-    }
-
-    .pesquisa768{
-        width: 300px;
-    }
-     
-     #entrada768{
-         width: 250px;
-    }
-
-    .menu-ativo{
-        background-color: rgba(190, 8, 8, 0.9);
+    .container_tela{
+        max-width: 320px;
+        height: 720px;
         display: flex;
-        flex-direction: column;
-        border-radius: 10px;
-        width: 190px;
-        height: 230px;
-        padding: 10px;
-        padding-left: 33px;
-        position: absolute;
-        top: 100px;
-        right: 12px
-    }
-
-    .menu-ativo a{
-        color: white;
-        font-size: 12pt;
-    }
-
-    .menu-ativo a:hover{
-        border-radius: 10px;
-        padding: 8px;
-        font-size: 11pt;
-        border-style: solid;
-        border-color: white;
-    } 
-
-    .banner{
-        background-image: url(../img/Banner_320px.png);
-    }
-
-    .container_banner {
         justify-content: center;
-        align-items: flex-end;
-    }
-
-    .textos_banner {
         align-items: center;
-        justify-content: baseline;
-        height: 120px;
-    } 
-
-    .containergeral{
-        height: 900px;
-    }
-
-    .container_relacionamentos{
-        width: 85%;
-        height: 250px;
-        font-size: 9pt;
     }
     
-    .container_relacionamentos img{
-        width: 80px;
+    .fundo{
+        width: 320px;
+        height: 640px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-
-    .container_rodape{
-        display: none;
+    
+    .logo{
+        width: 170px;
+        height: 90px;
+        margin-left: 20px;
     }
-
-    .coluna320px{
-        width: 182px;
-        height: 340px;
-        margin: 0 auto;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        display:inline-block;
+    
+    /* --------- FORMULARIO ---------------- */
+    
+    .container_form{
+        width: 75%;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 54px;
+    }
+    
+    .formulario{
+        width: 75%;
+        height: 530px;
+        background-color: #ac1c1cd8;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cab_form{
+        margin: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+    
+     .titulo{
+        margin: unset;
         font-family: "Roboto";
+        font-size: 15pt;
+        color: white;
+        text-align: center;
+     }
+    
+    .obrigatorio{
+        font-family: "Roboto";
+        font-size: 8pt;
+        color: white;
+        text-align: center;
     }
+    
+    .cab_cols{
+        width: 100%;
+        height: 444px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .col_1{
+        width: 95%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .col_2{
+        width: 95%;
+        height: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .col_1 input{
+        width: 92%;
+        height: 45px;
+        border-radius: 10px;
+        border-style: none;
+        font-size: 8pt;
+        padding-left: 10px;
+    }
+    
+    #mensagem{
+        width: 85%;
+        height: 65%;
+        max-height: 72%;
+        padding-top: 20px;
+        border-radius: 10px;
+        border-style: none;
+        font-family: "roboto";
+        font-size: 9pt;
+        padding-left: 20px;
+    
+    }
+    
+    .enviar{
+        width: 94%;
+        height: 40px;
+        color: white;
+        background-color: #49CC0C;
+        font-family: "roboto";
+        font-size: 10pt;
+        border-style: none;
+        border-radius: 10px;
+    }
+    
+    .enviar:hover{
+        background-color: #38a505;
+    } 
 
-    .coluna320px a{
-        text-decoration: none;
-        color: black;
-    }
-
-    .rodape{
-        height: 516px;
-    }
 }

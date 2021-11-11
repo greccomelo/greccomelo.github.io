@@ -155,6 +155,7 @@ header {
 
 
 /* --------- BANNER ---------------- */
+
 .banner{
     max-width: 100%;
     height: 300px;
@@ -189,7 +190,6 @@ header {
 .textos_banner p:hover {
     font-size: 110%;
 }
-
 
 /* -------- CARDS ---------- */
 
@@ -411,6 +411,38 @@ header {
     .banner{
         background-image: url(../img/banner_1360px.png);
     }
+
+    /* .carrossel{
+        display: none;
+    }
+    .carrossel1100{
+        display: none;
+    }
+
+    .carrossel768{
+        display: none;
+    }
+    
+    .carrosel320{
+        display: none;
+    }
+    
+    #carrossel1360{
+        display: flex;
+        justify-content: center;
+    }    
+    
+    #carrossel1360{
+        display: block;
+    }
+
+    #carrossel1360 img{
+        display: none;
+    } 
+
+    .banner-ativo1{
+        display: flex;
+    } */
     
     .menu{
         width: 700px;
@@ -444,7 +476,52 @@ header {
     .banner{
         background-image: url(../img/banner_1100px.png);
     }
+
+    /* .carrossel{
+        display: none;
+    }
+
+    #carrosel img{
+        display: none;
+    } */
     
+    /* .carrossel1360{
+        display: none;
+    }
+
+    #carrossel1360 img{
+        display: none;
+    } */
+
+    /* .carrossel768{
+        display: none;
+    }
+
+   .carrosel320{
+        display: none;
+    } */
+    
+    /* .carrossel1100{
+        display: flex;
+        justify-content: center;
+    }  
+    
+    .carrossel1100{
+        display: block;
+    }
+
+    #carrossel1100 img{
+        display: none;
+    } 
+
+    .banner-ativo1{
+        display: none;
+    }
+
+    .banner-ativo2{
+        display: flex;
+    } */
+
     .menu{
         width: 700px;
     }
@@ -524,8 +601,33 @@ header {
         width: 300px;
     }
 
-    .banner{
-        background-image: url(../img/banner_768px.png);
+    #carrossel1100{
+        display: none;
+    }
+
+    #carrosel320{
+        display: none;
+    }
+    
+    .carrossel768{
+        display: flex;
+        justify-content: center;
+    }    
+
+    .carrossel768{
+        display: none;
+    }
+
+    .carrossel768{
+        display: inline-block;
+    }
+
+    #carrossel768 img{
+        display: none;
+    } 
+
+    .banner-ativo3{
+        display: flex;
     }
 
     .container_banner {
@@ -578,6 +680,10 @@ header {
     }
 
     .pesquisa{
+        display: none;
+    }
+
+    .script-pesquisa1{
         display: none;
     }
 
@@ -774,7 +880,6 @@ header {
     .banner{
         background-image: url(../img/banner_700px.png);
     }
-
     
     .novidade {
         width: 280px;
@@ -799,7 +904,7 @@ header {
    
    
  @media screen and (max-width: 600px) {
-    
+
     .banner{
         background-image: url(../img/banner_600px.png);
     }
@@ -858,6 +963,18 @@ header {
 
 
 @media screen and (max-width: 320px) {
+
+    .carrosel320{
+        display: block;
+    }
+
+    #carrossel320 img{
+        display: none;
+    }
+
+    .banner-ativo4{
+        display: flex;
+    }
     
     header {
         height: 120px;
@@ -905,10 +1022,6 @@ header {
         border-style: solid;
         border-color: white;
     } 
-
-    .banner{
-        background-image: url(../img/Banner_320px.png);
-    }
 
     .container_banner {
         justify-content: center;
